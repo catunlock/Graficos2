@@ -1,0 +1,21 @@
+resize 800 600
+loadObject ./models/glass.obj
+solid
+noaxes
+clearColor 1 1 1
+resetLightPosition
+
+grab 1
+
+preset1
+grab 2
+
+loadObject ./models/torus.obj
+preset1
+grab 3
+
+loadObject ./models/cube.obj
+preset2
+grab 4
+
+

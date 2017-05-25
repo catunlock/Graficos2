@@ -1,0 +1,22 @@
+resize 800 600
+loadObject ./models/glass.obj
+wire
+noaxes
+clearColor 1 1 1
+preset1
+dist 1
+grab 1
+
+resetCamera
+dist 1
+grab 2
+
+loadObject ./models/torus.obj
+preset1
+grab 3
+
+loadObject ./models/boid.obj
+preset1
+grab 4
+
+

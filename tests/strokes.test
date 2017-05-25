@@ -1,0 +1,35 @@
+resize 800 600
+loadObject ./models/glass.obj
+solid
+noaxes
+clearColor 1 1 1
+preset1
+resetLightPosition
+unit0 ./Textures/strokes.png
+
+lightPositionEye 0 0 0 1
+
+matShininess 64
+
+grab 1
+
+loadObject ./models/fertility.obj
+preset1
+grab 2
+grab 2
+
+loadObject ./models/torus.obj
+preset1
+dist 1.5
+grab 3
+grab 3
+
+loadObject ./models/boid.obj
+preset1
+yaw 190
+pitch 53
+dist 1
+grab 4
+grab 4
+
+

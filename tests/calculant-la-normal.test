@@ -1,0 +1,21 @@
+resize 800 600
+solid
+noaxes
+clearColor 1 1 1
+
+loadObject ./models/torus.obj
+preset2
+grab 1
+
+loadObject ./models/sphere.obj
+preset2
+grab 2
+
+loadObject ./models/glass.obj
+preset2
+grab 3
+
+loadObject ./models/boid.obj
+preset2
+grab 4
+

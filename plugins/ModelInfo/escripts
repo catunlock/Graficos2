@@ -1,0 +1,15 @@
+➜  iluminacioBlinn-Phong git:(master) ✗ sed -i 's/AnimateVerticesPlugin/Iluminacio/g' *                       
+sed: no se puede editar build: no es un fichero regular
+➜  iluminacioBlinn-Phong git:(master) ✗ rm -rf build
+➜  iluminacioBlinn-Phong git:(master) ✗ sed -i 's/AnimateVerticesPlugin/Iluminacio/g' *
+➜  iluminacioBlinn-Phong git:(master) ✗ ls
+animateVerticesPlugin.cpp  animateVerticesPlugin.frag  animateVerticesPlugin.h  animateVerticesPlugin.pro  animateVerticesPlugin.vert  Makefile
+➜  iluminacioBlinn-Phong git:(master) ✗ mv animateVerticesPlugin.cpp iluminacio.cpp
+➜  iluminacioBlinn-Phong git:(master) ✗ mv animateVerticesPlugin.frag iluminacio.frag
+➜  iluminacioBlinn-Phong git:(master) ✗ mv animateVerticesPlugin.vert iluminacio.vert
+➜  iluminacioBlinn-Phong git:(master) ✗ mv animateVerticesPlugin.h iluminacio.h
+➜  iluminacioBlinn-Phong git:(master) ✗ mv animateVerticesPlugin.pro iluminacio.pro
+➜  iluminacioBlinn-Phong git:(master) ✗ rm Makefile 
+➜  iluminacioBlinn-Phong git:(master) ✗ nano iluminacio.pro 
+➜  iluminacioBlinn-Phong git:(master) ✗ sed -i 's/animateVerticesPlugin/iluminacio/g' *
+➜  iluminacioBlinn-Phong git:(master) ✗ cd ..
